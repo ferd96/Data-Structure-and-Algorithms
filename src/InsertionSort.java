@@ -2,9 +2,8 @@ public class InsertionSort {
     public static void main(String[] args) {
         int[] myArray = {6,5,3,1,8,7,2,4};
         printArray(myArray);
-
         int len = myArray.length;
-
+         // chay for
         for(int i = 1; i < len; i++){
             //Nhấc quân bài lên
             int tmp = myArray[i];
